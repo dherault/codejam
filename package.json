@@ -4,8 +4,8 @@
   "description": "Google Code Jam 2016",
   "main": "index.js",
   "scripts": {
-    "new": "sh scripts/new_pb.sh",
-    "start": "sh scripts/new_pb.sh"
+    "new": "sh _scripts/new_pb.sh",
+    "start": "sh _scripts/new_pb.sh"
   },
   "repository": {
     "type": "git",
