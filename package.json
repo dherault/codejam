@@ -1,0 +1,20 @@
+{
+  "name": "codejam",
+  "version": "1.0.0",
+  "description": "Google Code Jam 2016",
+  "main": "index.js",
+  "scripts": {
+    "new": "sh scripts/new_pb.sh",
+    "start": "sh scripts/new_pb.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dherault/codejam.git"
+  },
+  "author": "David Hérault",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/dherault/codejam/issues"
+  },
+  "homepage": "https://github.com/dherault/codejam#readme"
+}
