@@ -5,6 +5,7 @@ const lodash = require('./lodash'); // https://lodash.com, license information i
 function app(nCases, input) {
 
   // code here
+  
 }
 
 /* Logs a test case result in Code Jam's style */

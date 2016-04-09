@@ -1,20 +1,11 @@
 'use strict';
 
-const lodash = require('./lodash');
+// const lodash = require('./lodash');
 
 function app(nCases, input) {
 
   
-  input.map(line => {
-    const array = line.split(' ');
-    const reversedArray = [];
-    
-    for (let i = array.length - 1; i >= 0; i--) {
-      reversedArray.push(array[i]);
-    }
-    
-    return reversedArray.join(' ');
-  }).map(log);
+  input.map(line => line.split(' ').reverse().join(' ')).map(log);
 }
 
 /* UTILITIES */
